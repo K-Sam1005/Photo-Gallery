@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <ul class="menu" >
+        <li class="link"><a href="#start">Home</a></li>
+        <li class="link"><a href="#grid_gallery">Grid Gallery</a></li>
+        <li class="link"><a href="#sliding">Sliding Gallery</a></li>
+    </ul>
+    <div class="container">
+        <section id="start">
+            <h1>Welome to my Photo Gallery</h1>
+            <div class="line"></div>
+            <img src="10127814-nature-text-on-a-gradient-background.jpg" id="img1">
+        </section>
+        <section id="grid_gallery">
+            <hr>
+            <h1>Grid Gallery</h1>
+            <hr>
+            <div>
+                <span>
+                    <img src="download%20(1).jpg" class="pics">
+                    <img src="download%20(2).jpg" class="pics">
+                    <img src="download%20(3).jpg" class="pics">
+                </span>
+            </div>
+            <div><span>
+                    <img src="download%20(4).jpg" class="pics">
+                    <img src="download%20(5).jpg" class="pics">
+                    <img src="download.jpg" class="pics">
+                </span>
+            </div>
+        </section>
+        <section id="sliding">
+            <hr>
+            <h1>Slideshow</h1>
+            <hr>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center><img src="download%20(4).jpg" class="image"></center>
+                    </div>
+                    <div class="item">
+                        <center><img src="download(6).jpg"></center>
+                    </div>
+                    <div class="item">
+                        <center><img src="download(7).jpg"></center>
+                    </div>
+                    <div class="item">
+                        <center><img src="download(8).jpg"></center>
+                    </div>
+                    <div class="item">
+                        <center><img src="download(9).jpg"></center>
+                    </div>
+                    <div class="item">
+                        <center><img src="download(10).jpg"></center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </section>
+    </div>
+</body></html>

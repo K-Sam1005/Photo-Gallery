@@ -1,0 +1,81 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+}
+
+#grid_gallery {
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+}
+
+#img1 {
+    height: 500px;
+}
+
+.container {
+    text-align: center;
+}
+
+#myCarousel {
+    background-color: aquamarine;
+}
+
+h1 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.pics {
+    border-color: black;
+    border-style: solid;
+    border-width: 8px;
+    width: 340px;
+    height: 240px;
+    margin: 10px;
+}
+
+br {
+    color: black;
+}
+
+.line {
+    height: 6px;
+    width: 100px;
+    color: #000;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    float: left;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: white;
+    width: 100%;
+    top: 0px;
+    margin-top: 0px;
+}
+
+.link {
+    display: inline;
+    padding-right: 25px;
+    padding-left: 33px;
+    color: red;
+}
+
+.link:hover {
+    font-size: 30px;
+    color: #FFFF33;
+    background-color: coral;
+    text-decoration: overline;
+}
+
+a {
+    text-decoration: none;
+}
